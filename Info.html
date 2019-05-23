@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>商品介绍</title>
+	<link rel="stylesheet" style="text/css" href="style/css1.css">
+	<link rel="stylesheet" style="text/css" href="style/main.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/Info.js"></script>
+
+</head>
+<body class="grey">
+	<div class="headerBro clearfloat clearfix"> <!-- 头部 -->
+		<div class="topBar">
+			<div class="comWidth">
+				<div class="fl">  <!-- 左边区域 -->
+					<a href="#" class="collection">收藏</a>
+				</div>
+				<div class="fr">   <!-- 右侧区域 -->
+					欢迎来到买卖网！
+					<a href="login.html">[登录]</a>
+					<a href="register.html">[注册]</a>
+				</div>
+			</div>
+		</div>
+		<div class="logoBar">    <!-- logo -->
+			<div class="comWidth">    <!-- 居中部分 -->
+				<div class="logo fl">
+					<a href="index.html"> 
+						<img src="" alt="买卖网">
+					</a>
+				</div>
+				<div class="search_box fl">   <!--  搜索框 -->
+					<input type="text" class="search_text fl">
+					<input type="button" value="搜 索" class="search_btn fl">
+				</div>
+				<div class="shopCar fr">    <!-- 购物车 -->
+					<span class="shopText fl">购物车</span>
+					<span class="shopNum fr">0</span>
+				</div>
+			</div>
+			<div class="navBox">  <!--  导航 -->
+				<div class="comWidth">
+					<div class="shopClass fl">
+						<h3 id="shopClass">全部商品分类 <i></i></h3>
+						<div class="shopClass_show hide" id="shopClassShow"> <!-- 左边导航 -->
+							<dl class="shopClass_item">
+								<dt>
+									<a href="produceClass.html">手机</a>
+									<a href="produceClass.html">数码</a>
+									<a href="" class="alink">合约机</a>
+								</dt>
+								<dd>
+									<a href="">荣耀X7</a>
+									<a href="">单反</a>
+									<a href="">智能设备</a>
+								</dd>
+							</dl>
+							<dl class="shopClass_item">
+								<dt>
+									<a href="produceClass.html">手机</a>
+									<a href="produceClass.html">数码</a>
+									<a href="" class="alink">合约机</a>
+								</dt>
+								<dd>
+									<a href="">荣耀X7</a>
+									<a href="">单反</a>
+									<a href="">智能设备</a>
+								</dd>
+							</dl>
+							<dl class="shopClass_item">
+								<dt>
+									<a href="produceClass.html">手机</a>
+									<a href="produceClass.html">数码</a>
+									<a href="" class="alink">合约机</a>
+								</dt>
+								<dd>
+									<a href="">荣耀X7</a>
+									<a href="">单反</a>
+									<a href="">智能设备</a>
+								</dd>
+							</dl>
+							<dl class="shopClass_item">
+								<dt>
+									<a href="produceClass.html">手机</a>
+									<a href="produceClass.html">数码</a>
+									<a href="" class="alink">合约机</a>
+								</dt>
+								<dd>
+									<a href="">荣耀X7</a>
+									<a href="">单反</a>
+									<a href="">智能设备</a>
+								</dd>
+							</dl>
+							<dl class="shopClass_item">
+								<dt>
+									<a href="produceClass.html">手机</a>
+									<a href="produceClass.html">数码</a>
+									<a href="" class="alink">合约机</a>
+								</dt>
+								<dd>
+									<a href="">荣耀X7</a>
+									<a href="">单反</a>
+									<a href="">智能设备</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="shopClass_list hide" id="shopClassList" >  <!-- 右边导航栏 -->
+							<div class="shopClass_cont">
+								<dl class="shopList_item">
+									<dt>电脑装机</dt>
+									<dd>
+										<a href="">文字撒</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+										<a href="">文字撒第三方</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="shopClass_cont">
+								<dl class="shopList_item">
+									<dt>电脑装机</dt>
+									<dd>
+										<a href="">文字撒</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+										<a href="">文字撒第三方</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+										<a href="">文字撒第三方</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="shopClass_cont">
+								<dl class="shopList_item">
+									<dt>电脑装机</dt>
+									<dd>
+										<a href="">文字撒</a>
+										<a href="">文字</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+										<a href="">文字撒第三方</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="shopClass_cont">
+								<dl class="shopList_item">
+									<dt>电脑装机</dt>
+									<dd>
+										<a href="">文字撒</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+										<a href="">文字撒第三方</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+										<a href="">文字撒第三方</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="shopClass_cont">
+								<dl class="shopList_item">
+									<dt>电脑装机</dt>
+									<dd>
+										<a href="">文字撒</a>
+										<a href="">文字</a>
+										<a href="">文字撒第三方</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+										<a href="">文字撒第三方</a>
+										<a href="">文字</a>
+										<a href="">文字撒</a>
+									</dd>
+								</dl>
+								<div class="shopList_links">
+									<a href="">文字测试内容<span></span></a>
+									<a href="">内容改变<span></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul class="nav fl">
+						<li ><a href="produceClass.html" title="数码" target="_self">数码</a></li>
+						<li><a href="" title="团购" target="_self">团购</a></li>
+						<li><a href="">发现</a></li>
+						<li><a href="">礼品卡</a></li>
+						<li><a href="">海外购</a></li>
+						<li><a href="">帮助</a></li>
+					</ul>
+				</div>
+			</div> 
+		</div>
+	</div>
+	
+	<!-- 商品详情 -->
+	<div class="userPosition comWidth">
+		<strong><a href="">首页</a></strong>
+		<span>&nbsp;&gt;&nbsp;</span>
+		<a href="">平板电脑</a>
+		<span>&nbsp;&gt;&nbsp;</span>
+		<a href="">Apple 苹果</a>
+		<span>&nbsp;&gt;&nbsp;</span>
+		<em href="">MD531CH/A</em>		
+	</div>
+	<div class="description_info comWidth clearfix">
+		<div class="description">
+			<div class="leftArea">
+				<div class="description_imgs">
+					<div class="big">
+						<img src="images/big_product_img_03.jpg" alt="">
+					</div>
+					<ul class="des_smimg clearfix">
+						<li>
+							<a href=""><img src="images/small_img_02_03.jpg" alt="" class="active smallPic">
+							</a></li>
+						<li>
+							<a href=""><img src="images/small_img_03.jpg" class="smallPic"></a></li>
+						<li><a href=""><img src="images/small_img_02_03.jpg" class="smallPic"></a></li>
+						<li><a href="">
+							<img src="images/samll_img_04_03.jpg" class="smallPic"></a></li>
+						<li><a href=""><img src="images/small_img_02_03.jpg" class="smallPic"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="rightArea">
+				<div class="des_content">
+					<h3 class="des_content_tit">全网底价 Apple 苹果 iPad mini 16G wifi版 平板电脑 前白后银 MD531CH/A 银白两色生 产批次</h3>
+					<div class="dl clearfix">
+						<div class="dt">价格</div>
+						<div class="dd"><span class="des_money"><em>￥</em> 1999.00</span></div>
+					</div>
+					<div class="dl clearfix">
+						<div class="dt">优惠</div>
+						<div class="dd"><span class="hg"><i class="hg_icon">满换购</i><em>购ipad加价优惠够配件或USB充电插座</em></span></div>
+					</div>
+					<div class="des_position">
+						<div class="dl clearfix">
+							<div class="dt">送到</div>
+							<div class="dd clearfix">
+								<div class="select">
+									<h3>海淀区五环内</h3>
+									<span></span>
+									<ul class="show_select">
+										<li>北京</li>
+										<li>上海</li>
+										<li>广州</li>
+										<li>深圳</li>
+										<li>江苏</li>
+									</ul>
+								</div>
+								<span class="theGoods">有货，可当日出货</span>
+							</div>
+						</div> <!-- dl结尾 -->
+					</div>
+					<div class="des_position">
+						<div class="dl clearfix">
+							<div class="dt colorSelect">选择颜色</div>
+							<div class="dd clearfix">
+								<div class="des_item des_item_active">
+									WIFI 16GB
+								</div>
+								<div class="des_item">
+									WIFI 16GB
+								</div>
+								<div class="des_item">
+									WIFI 16GB
+								</div>
+							</div>
+						</div><!-- dl结尾 -->
+					</div> 
+					<div class="des_position">
+						<div class="dl clearfix">
+							<div class="dt colorSelect des_select_more">选择版本</div>
+							<div class="dd clearfix">
+								<div class="des_item des_item_sm des_item_active">
+									WIFI 16GB
+								</div>
+								<div class="des_item des_item_sm">
+									WIFI 16GB +3G
+								</div>
+								<div class="des_item des_item_sm">
+									WIFI 16GB + 6G
+								</div>
+								<div class="des_item des_item_sm">
+									WIFI 16GB +3G
+								</div>
+								<div class="des_item des_item_sm">
+									WIFI 16GB + 6G
+								</div>
+								<div class="des_item des_item_sm">
+									WIFI 16GB + 6G
+								</div>
+								<div class="des_item des_item_sm">
+									WIFI 16GB + 6G
+								</div>
+							</div>
+						</div><!-- dl结尾 -->
+						<div class="dl">
+							<div class="dt des_num">数量</div>
+							<div class="dd clearfix">
+								<div class="des_number">
+									<div class="reduction">-</div>
+									<div class="des_input">
+										<input type="text" value="1">
+									</div>
+									<div class="plus">+</div>
+								</div>
+								<span class="xg">限购<em>222</em>件</span>
+							</div>
+						</div> <!-- dl结尾 -->
+					</div>  <!-- des_postion 位置结束 -->
+					<div class="des_select">
+						已选择<span>"白色|WIFI 16G"</span>
+					</div>
+					<div class="shop_buy">
+						<a href="shopCar.html" class="shopping_btn"></a>
+						<span class="line"></span>
+						<a href="shopCar.html" class="buy_btn"></a>
+					</div>
+					<div class="notes">
+						注意：此商品可提供普通发票，不提供增值税发票。
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hr_15"></div>
+
+	<div class="des_info comWidth clearfix">
+		<div class="leftArea">
+			<div class="recommend">
+				<h3 class="tit">同价位</h3>
+				<div class="item">
+					<div class=""></div>
+					<div class="item_cont">
+						<div class="img_item">
+							<a href=""><img src="images/proImg_03.jpg" alt=""></a>
+						</div>
+						<p><a href="">全网最低价格，佳能照相机</a></p>
+						<p class="money">￥888</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class=""></div>
+					<div class="item_cont">
+						<div class="img_item">
+							<a href=""><img src="images/banner/produce.jpg" alt=""></a>
+						</div>
+						<p><a href="">全网最低价格，佳能照相机</a></p>
+						<p class="money">￥888</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class=""></div>
+					<div class="item_cont">
+						<div class="img_item">
+							<a href=""><img src="images/produce_sm_2_98.gif" alt=""></a>
+						</div>
+						<p><a href="">全网最低价格，佳能照相机</a></p>
+						<p class="money">￥888</p>
+					</div>
+				</div>
+			</div>
+			<div class="hr_15"></div>
+			<div class="recommend">
+				<h3 class="tit">看了最终买</h3>
+				<div class="item">
+					<div class=""></div>
+					<div class="item_cont">
+						<div class="img_item">
+							<a href=""><img src="images/proImg_03.jpg" alt=""></a>
+						</div>
+						<p><a href="">全网最低价格，佳能照相机</a></p>
+						<p class="money">￥888</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class=""></div>
+					<div class="item_cont">
+						<div class="img_item">
+							<a href=""><img src="images/banner/produce.jpg" alt=""></a>
+						</div>
+						<p><a href="">全网最低价格，佳能照相机</a></p>
+						<p class="money">￥888</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class=""></div>
+					<div class="item_cont">
+						<div class="img_item">
+							<a href=""><img src="images/produce_sm_2_98.gif" alt=""></a>
+						</div>
+						<p><a href="">全网最低价格，佳能照相机</a></p>
+						<p class="money">￥888</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rightArea">
+			<div class="des_infoContent">
+				<ul class="des_tit">
+					<li class="active"><span class="info_little">产品介绍</span></li>
+					<li><span class="info_ass">产品评价(1024)</span></li>
+				</ul>
+				<div class="ad">
+					<a href=""><img src="images/spring_banner_11.jpg" alt=""></a>
+				</div>
+				<div class="info_text">
+					<div class="info_tit">
+						<h3>强烈推荐</h3>
+						<h4>货比三家，还选</h4>
+					</div>
+					<p>各种自我介绍</p>
+					<div class="hr_45"></div>
+				</div>
+				<div class="info_text">
+					<div class="info_tit">
+						<h3>强烈推荐</h3>
+						<h4>货比三家，还选</h4>
+					</div>
+					<p>各种自我介绍</p>
+					<div class="hr_45"></div>
+					<img src="images/ProductsInfo_03.jpg" alt="产品" class="images_center">
+					<div class="hr_45"></div>
+				</div>
+			</div>
+			<div class="hr_15"></div>
+			<div class="des_infoContent">
+				<h3 class="shopDes_tit">商品评价</h3>
+				<div class="score_box clearfix">
+					<div class="score">
+						<span>4.7</span><em>分</em>
+					</div>
+					<div class="score_speed">
+						<ul class="score_speed_txt">
+							<li  class="speed_01">非常不满意</li>
+							<li class="speed_02">不满意</li>
+							<li class="speed_03">一般</li>
+							<li class="speed_04">满意</li>
+							<li>非常满意</li>
+						</ul>
+						<dix class="score_num">
+							4.7 <i></i>
+						</dix>
+						<p>共18939位慕课网友参与</p>
+					</div>
+				</div>
+				<div class="review_tab">
+					<ul class="review fl">
+						<li ><a href="" class="active">全部</a></li>
+						<li><a href="">满意(3121)</a></li>
+						<li><a href="">一般(21)</a></li>
+						<li><a href="">不满意(743)</a></li>
+					</ul>
+					<div class="review_sort fr">
+						<a href="" class="review_time">时间排序</a>
+						<a href="" class="review_reco">推荐排序</a>
+					</div>
+				</div>
+				<div class="review_listBox">
+					<div class="review_list clearfix">
+						<div class="review_userHead fl">
+							<div class="review_user">
+								<img src="images/vip_03.png" alt="">
+								<p>61***42</p>
+								<p>黄金会员</p>
+							</div>
+						</div>
+						<div class="review_cont">
+							<div class="review_t clearfix">
+								<div class="StartsBox fl">
+									<span class="starts"></span><span class="starts"></span><span class="starts"></span><span class="starts"></span><span class="starts"></span>				
+								</div>
+								<div class="starts_text fl">5分满意</div>
+							</div>
+							<p>评价内容文字内容，不错不错，经常来</p>
+							<p><a href="" class="ding">顶(0)</a><a href="" class="cai">踩(0)</a></p>
+						</div>
+					</div>
+					<div class="review_list clearfix">
+						<div class="review_userHead fl">
+							<div class="review_user">
+								<img src="images/vip_03.png" alt="">
+								<p>61***42</p>
+								<p>黄金会员</p>
+							</div>
+						</div>
+						<div class="review_cont">
+							<div class="review_t clearfix">
+								<div class="StartsBox fl">
+									<span class="starts"></span><span class="starts"></span><span class="starts"></span><span class="starts"></span><span class="starts"></span>				
+								</div>
+								<div class="starts_text fl">5分满意</div>
+							</div>
+							<p>评价内容文字内容，不错不错，经常来</p>
+							<p><a href="" class="ding">顶(0)</a><a href="" class="cai">踩(0)</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="page">
+					<a href="">上一页</a>
+					<a href="">1</a>
+					<a href="">2</a>
+					<span class="hl">...</span>
+					<a href="">8839</a>
+					<a href="">下一页</a>
+					<span class="morePage">共200页，到</span>
+					<input type="text" class="pageNum">
+					<span clas="page_text">页</span>
+					<input type="button" value="确定" class="page_btn">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hr_25"></div>
+	<!-- 底部 -->
+	<div class="footer">
+		<p>
+			<a href="">关于我们</a>
+			<i>|</i>
+			<a href="">公告</a>
+			<i>|</i>
+			<a href="">招贤纳士</a>
+			<i>|</i>
+			<a href="">联系我们</a>
+			<i>|</i>
+			<a href="">客服热线：400-000-000</a>
+		</p>
+		<p>Copyright &copy; 2018 imooc.com All Rights Reserved | &nbsp;备案号asdjskfjklds </p>
+		<p class="web">
+			<a href=""><img src="images/footerImg.jpg" alt="logo"></a>
+			<a href=""><img src="images/footerImg.jpg" alt="logo"></a>
+			<a href=""><img src="images/footerImg.jpg" alt="logo"></a>
+			<a href=""><img src="images/footerImg.jpg" alt="logo"></a>
+		</p>
+	</div>
+</body>
+</html>
