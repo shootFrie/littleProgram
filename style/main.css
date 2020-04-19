@@ -46,6 +46,7 @@
 .search_box{
 	width: 430px;
 	padding-top: 23px;
+	margin: 0 0 27px 0;
 	padding-left: 185px;
 }
 .search_text{
@@ -265,6 +266,7 @@
 }
 .imgBox li{
 	float: left;
+	margin: 0 0 75px 0;
 	width:811px;
 	height:325px;
 }
@@ -1449,12 +1451,12 @@
 	padding-left: 24px;
 }
 .login_cont{
-	padding:15px 40px;
+	padding:50px 40px;
 }
 .loginBox{
 	width: 458px;
 	border:1px solid #999;
-	margin:10px auto;
+	margin:50px auto;
 	position: relative;
 }
 .l_tit{
@@ -1519,6 +1521,7 @@
 }
 .login_list li{
 	float: left;
+	padding:2px;
 	color:#666;
 }
 .login_link{

@@ -53,7 +53,21 @@
 	height: 218px;
 	display: block;
 }
-
+/* 商品列表左侧反应 */
+.shopClass_item_hover{
+	background: #fff;
+	font-size: 16px;
+}
+.shopClass_item_hover dt{
+	background: #fff;
+}
+.shopClass_item_hover a{
+	color:#000;
+}
+.shopClass_item_hover .alink{
+	background: #0000FF;
+	color: #fff;
+}
 /* 商品列表 右边 下半部分  */
 .shopItem_sm{
 	width: 202px;
@@ -91,4 +105,9 @@
 
 .hr_25{
 	height:25px;
+}
+
+/* 轮播 */
+.produ_list li{
+	width:190px;
 }
